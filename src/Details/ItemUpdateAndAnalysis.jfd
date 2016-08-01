@@ -1,0 +1,178 @@
+JFDML JFormDesigner: "5.2.4.0.321" Java: "1.8.0_65" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp tabbedPane1::l:::x}"
+			"$verticalGroup": "par l {comp tabbedPane1::l:::x}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
+				name: "tabbedPane1"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq {par l {seq l {space :p:393:p, comp button1:::p::p}, seq l {space :p:381:p, comp label1:::p::p}, seq l {space :p:24:p, par l {comp scrollPane1:::p:784:p, seq {comp label3:::p::p, space u:::p, comp DetailItemName:::p:163:p, space :p:133:p, comp label2:::p::p, space :::p, comp DetailCategory:::p:178:p}}}}, space :::x}}"
+					"$verticalGroup": "par l {seq l {space :::p, comp label1:::p::p, space :p:18:p, par b {comp label3::b:p::p, comp DetailItemName::b:p::p, comp label2::b:p::p, comp DetailCategory::b:p::p}, space s:::p, comp scrollPane1:::p:173:p, space :p:32:p, comp button1:::p::p, space ::74:x}}"
+				} ) {
+					name: "panel1"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "DetailItemName"
+						"text": "...."
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 0, false )
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane1"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "table1"
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2"
+						"text": "Category:-"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 65538, 2, false )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": "Item Name:-"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 65536, 5, false )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "DetailCategory"
+						"text": "..."
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 3, false )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button1"
+						"text": "CLOSE"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "bClose", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label1"
+						"text": "Details"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 10, false )
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Details"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {space :p:66:p, par l {seq l {space :p:148:p, comp label7:::p::p, space :::p, comp UpdateCurrentQty:::p::p}, seq l {comp label26:::p::p, space s:::p, comp tvUpdateQty:::p:137:p, space :::p, comp UpdateQtyUnit:::p::p, space s:::p, comp radioButton1:::p::p, space u:::p, comp radioButton2:::p::p, space :p:35:p, comp label10:::p::p, space :::p, comp UpdateNewQty:::p::p, space :::p, comp UpdateQtyUnit2:::p::p}}, space ::228:x}, seq {par l {seq {par l {seq l {space :p:372:p, comp label21:::p::p}, seq l {space :p:51:p, par t {comp label23:::p::p, comp label24:::p::p, comp label22::t:p::p}, space u:::p, par l {comp UpdateItemName:::p:149:p, seq l {par t:::p {comp UpdateCategory::l::119:x, comp tvUpdatePrice::l::119:x}, space s:::p, comp label5:::p::p, space :::p, comp UpdateCurrentPrice:::p::p}}}, seq l {space :p:108:p, comp label27:::p::p, space :::p, comp scrollPane6:::p:297:p}, seq l {space :p:270:p, comp button4:::p::p}}, space :0:360:x}, seq {space :::p, par l {comp separator1::::825:x, comp separator2::l::825:x}}}, space :::p}}"
+					"$verticalGroup": "par l {seq l {space :::p, comp label21:::p::p, space :p:47:p, par b {comp label22::b:p::p, comp UpdateItemName::b:p::p}, space :p:20:p, par b {comp label23::b:p::p, comp UpdateCategory::b:p::p}, space u:::p, par b {comp label24::b:p::p, comp tvUpdatePrice::b:p::p, comp label5::b:p::p, comp UpdateCurrentPrice::b:p::p}, space :::p, comp separator1:::p:2:p, space :::p, par b {comp label7::b:p::p, comp UpdateCurrentQty::b:p::p}, space :p:21:p, par b {comp UpdateQtyUnit::b:p::p, comp radioButton1::b:p::p, comp radioButton2::b:p::p, comp label26::b:p::p, comp tvUpdateQty::b:p::p, comp label10::b:p::p, comp UpdateNewQty::b:p::p, comp UpdateQtyUnit2::b:p::p}, space u:::p, comp separator2:::p::p, space s:::p, par l {comp scrollPane6:::p:74:p, comp label27:::p::p}, space ::18:x, comp button4:::p::p, space :::p}}"
+				} ) {
+					name: "panel2"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label21"
+						"text": "Update & Edit"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 3, false )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label22"
+						"text": "Item Name* :"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label23"
+						"text": "Category Name*:"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button4"
+						"text": "Save"
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "bItemSave", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label24"
+						"text": "Price :"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "tvUpdatePrice"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label26"
+						"text": "Quantity :"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "tvUpdateQty"
+						addEvent( new FormEvent( "javax.swing.event.CaretListener", "caretUpdate", "tvUpdateQtyCaretUpdate", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label27"
+						"text": "Remark:-"
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane6"
+						add( new FormComponent( "javax.swing.JTextArea" ) {
+							name: "tvUpdateRemak"
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "UpdateItemName"
+						"text": "Name"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "UpdateCategory"
+						"text": "Category"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5"
+						"text": "Current Price : "
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 0, false )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "UpdateCurrentPrice"
+						"text": "XX"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 2, false )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label7"
+						"text": "Current Quantity : "
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 0, false )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "UpdateCurrentQty"
+						"text": "XX"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 2, false )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "UpdateQtyUnit"
+						"text": "XX"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 0, false )
+					} )
+					add( new FormComponent( "javax.swing.JSeparator" ) {
+						name: "separator1"
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "radioButton1"
+						"text": "Add"
+						"$buttonGroup": new FormReference( "buttonGroup1" )
+						"selected": true
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "radioUpdateAdd", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "radioButton2"
+						"text": "Subtract"
+						"$buttonGroup": new FormReference( "buttonGroup1" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "radioUpdateSubtract", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JSeparator" ) {
+						name: "separator2"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label10"
+						"text": "New Quantity :"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "UpdateNewQty"
+						"text": "XX"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "UpdateQtyUnit2"
+						"text": "XX"
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "Update & Edit"
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 855, 470 )
+		} )
+	}
+}

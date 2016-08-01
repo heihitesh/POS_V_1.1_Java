@@ -1,0 +1,61 @@
+JFDML JFormDesigner: "5.2.4.0.321" Java: "1.8.0_65" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq {par l {seq l {space :p:129:p, comp label1:::p::p}, seq l {space :p:24:p, par l {par t:l {comp label3:::p::p, comp label2:::p::p}, seq l {space :p:9:p, par l {comp label4:::p::p, comp label8:::p::p}}}, space :::p, par l:::p {comp UpdateReleasedDate::::195:x, comp UpdateLatestVersion::l::195:x, comp UpdateDescription::l::195:x, comp UpdateCurrentVersion::l:p:186:p}}}, space :0:59:x}, seq l {space :::p, comp separator1::::372:x}}, space :::p}, seq l {space :p:112:p, comp button1:::p::p, space ::119:x}}"
+			"$verticalGroup": "par l {seq l {space :::p, comp label1:::p::p, space s:::p, par b {comp label2::b:p::p, comp UpdateCurrentVersion::b:p::p}, space :p:5:p, comp separator1:::p::p, space :::p, par b {comp label3::b:p::p, comp UpdateLatestVersion::b:p::p}, space u:::p, par b {comp label4::b:p::p, comp UpdateReleasedDate::b:p::p}, space :::p, par l {comp label8:::p::p, comp UpdateDescription:::p::p}, space :p:41:p, comp button1:::p::p, space ::44:x}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Update Info"
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 6, false )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Current Version : "
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Latest Version : "
+			} )
+			add( new FormComponent( "javax.swing.JSeparator" ) {
+				name: "separator1"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "Released Date :  "
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "UpdateLatestVersion"
+				"text": "xx.xx"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "UpdateReleasedDate"
+				"text": "xx.xx"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label8"
+				"text": "Description : "
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "UpdateDescription"
+				"text": "xx"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "Download New Version"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "bUpdateDownload", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "UpdateCurrentVersion"
+				"text": "xx.xx"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 400, 300 )
+		} )
+	}
+}
